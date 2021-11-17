@@ -5,7 +5,7 @@ from discord.ext import commands
 from discord.flags import Intents
 intents = discord.Intents.all()
 
-key = "ODkwODkzNzczODAwODg2Mjky.YU2bew.Tw7CWnQvRXHE9c62r1HxPP9pV2A"
+key = "ODkwODkzNzczODAwODg2Mjky.YU2bew.KAVXW7BYmiuBR2_TuJjNoIy8Wy4"
 
 bot = commands.Bot(
     command_prefix="n.",
