@@ -33,8 +33,7 @@ class Welcome(commands.Cog):
         #ユーザー数を取得する。
         members = sum(1 for member in guild.members if not member.bot)
 
-        msg_1 = await channel.send('ようこそ!!**' + mem + '**さん\n** ' + g_mane + '**へ!!\nあなたは__【 ' + str(members) + ' 人目】__の参加者です。')
-        await msg_1.add_roles(new_join)
+        await channel.send('ようこそ!!**' + mem + '**さん\n** ' + g_mane + '**へ!!\nあなたは__【 ' + str(members) + ' 人目】__の参加者です。')
 
 def setup(bot):
     return bot.add_cog(Welcome(bot))
