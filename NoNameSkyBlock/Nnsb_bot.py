@@ -5,8 +5,6 @@ from discord.ext import commands
 from discord.flags import Intents
 intents = discord.Intents.all()
 
-key = "ODkwODkzNzczODAwODg2Mjky.YU2bew.KAVXW7BYmiuBR2_TuJjNoIy8Wy4"
-
 bot = commands.Bot(
     command_prefix="n.",
     help_command=None,
@@ -22,4 +20,4 @@ bot.load_extension('Cog.Help')
 bot.load_extension('Cog.Url')
 bot.load_extension('Cog.Join')
 
-bot.run(key)
+bot.run('TOKEN')
