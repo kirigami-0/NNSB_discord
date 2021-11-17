@@ -27,7 +27,6 @@ class Url(commands.Cog):
         embed.set_thumbnail(
             url=''
         )
-
         await ctx.send(embed=embed)
     
     @commands.command()

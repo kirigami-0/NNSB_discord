@@ -28,7 +28,7 @@ class Omikuji(commands.Cog):
             ]
         res = '||' + random.choice(result) + '||'
 
-        await ctx.send(f'{ctx.author.mention}\n今日の運勢は\n' + res + 'でした。')
+        await ctx.channel.send(f'{ctx.author.mention}\n今日の運勢は\n' + res + 'でした。')
 
 def setup(bot):
     return bot.add_cog(Omikuji(bot))
